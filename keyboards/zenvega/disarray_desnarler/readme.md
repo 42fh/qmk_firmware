@@ -8,6 +8,13 @@ A 4-key RP2040 macropad with an analog slider, a two-position switch, and three 
 - Hardware Supported: Disarray Desnarler v1 PCB with Seeed Studio XIAO RP2040
 - Hardware Availability: [Disarray Desnarler documentation](https://github.com/ZenVega/disarray_desnarler_docs), [Hackaday project](https://hackaday.io/project/204536-disarray-desnarler)
 
+Hardware pins:
+
+- 4 digital keys on a 2x2 matrix
+- Analog slider on `GP29`
+- Mode switch on `GP0`
+- Indicator LEDs on `GP26`, `GP28`, and `GP27`
+
 Make example for this keyboard (after setting up your build environment):
 
 ```sh
